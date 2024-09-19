@@ -1,1 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
 
+         /* Estilos generales para centrar el contenido en la página */
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh; /* Asegura que el contenido ocupe al menos toda la altura de la ventana */
+      display: flex;
+      justify-content: center; /* Centra horizontalmente */
+      align-items: flex-start; /* Comienza el contenido desde la parte superior */
+      background-color: #f4f4f4; /* Fondo opcional */
+    }
+
+    .contenedor {
+      display: flex;
+    }
+    .columna-izquierda {
+      width: 300px; /* Ancho fijo para la columna izquierda */
+      background-color: lightsalmon;
+      padding: 20px;
+    }
+    .columna-derecha {
+      width: 600px; /* Ancho fijo para la columna derecha */
+      background-color: salmon;
+      padding: 20px;
+    }
+    h3{
+      color: white;
+      font-size: 30px;
+    }
+
+      h1, h2 {
+            color: black;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .contact-info, .education, .experience {
+            border-bottom: 5px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .contact-info p, .education p, .experience p {
+          text-align: justify;
+            margin: 5px 0;
+        }
+        .nombre{
+          
+      padding: 5px;
+      text-align: center;
+      font-size: 10 px;
+      font-weight: bold;
+      border-radius: 3px;
+      border-bottom: 5px solid #ddd;
+        }
+        .acercademi{
+          border-bottom: 5px solid #ddd;
+          text-align: justify;
+        }
+        .imagen {
+          text-align: center;
+      display: block;
+      margin: 0 auto; /* Centrado horizontal */
+      max-width: 100%; /* Asegura que la imagen no sobrepase el contenedor */
+      height: auto; /* Mantener proporción */
+    }
+    /* Diseño responsive */
+    @media (max-width: 768px) {
+      .columna-izquierda, .columna-derecha {
+        width: 100%; /* Las columnas ocupan todo el ancho en pantallas pequeñas */
+      }
+
+      .columna-izquierda {
+        margin-bottom: 20px; /* Espacio entre las dos columnas */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .nombre {
+        font-size: 18px; /* Ajustar el tamaño de fuente en pantallas pequeñas */
+      }
+      
+      h1, h2 {
+        font-size: 20px; /* Reducir el tamaño de los títulos */
+      }
+
+      .columna-izquierda {
+        padding: 60px; /* Reducir el padding en pantallas más pequeñas */
+      }
+
+
+  </style>
+</head>
+<body>
+
+  <div class="contenedor">
+    <div class="columna-izquierda">
+<section class="imagen">
+  <a href="https://ibb.co/hyP564Y"><img src="https://i.ibb.co/hyP564Y/IMG-20240405-214803-Original.jpg" ></a>
+ </section>
+
+  
+
+       <section class="contact-info"> 
+         <h2>Información de Contacto</h2>
+    <p>Dirección: Av Inglaterra 123, Guadalajara, Jalisco, Mexico </p>
+    <p>Teléfono: (123) 456-7890</p> 
+    <p>Email: za220120366@zapopan.tecmm.edu.mx</p>
+     </section>
+
+    <section class="education">
+        <h2>Educación</h2>
+        <p><strong>Preparatoria NO.7</strong> - Título Obtenido: Certificado</p>
+        <p>Año de Graduación: 2020</p>
+
+    <p><strong>Tecnologico Superior de Jalisco</strong> - Título Obtenido: Titulo en ISC  </p>
+        <p>Año de Graduación: Aun en progreso con fecha aproximada de termino en  2026</p>
+
+    </section>
+           <p></p>
+
+           <section>
+                 <h2>Habilidades</h2>
+        <p>-Creativa</p>
+        <p>-Trabajo en equipo</p>
+        <p>-Colavorativa</p>
+        <p>-Iniciativa</p>
+        <p>-Persuacion</p>
+        <p>-Responsable</p>
+        <p>-Flexibilidad</p>
+           </section>
+       
+
+    </div>
+    <div class="columna-derecha">
+      <section class=" nombre">
+        <h3>Maria de los Angeles Perez Velez</h3>
+      </section> 
+       <section class="acercademi">
+        <h2>Resumen laboral</h2>
+        <p>Tengo mas de 2 años dedicandome a la atenciona al cliente, asi como al manejo de ua tienda 
+        ya que en mis dos trabajos yo podia hacerme cargo de todo sola, que era desde atender, cobrar, hacer nventario de faltantes 
+      y cierre de local </p>
+        
+       </section>
+       <section class="experience">
+        <h2>Experiencia Laboral</h2>
+        <p><strong>Tapioca drinks </strong></p>
+        <p> Barista, cajera</p>
+        <p>octubre 2020- mayo 2021 - </p>
+        <p>Responsabilidades:</p>
+         <p>-Preparar las bebidas</p>
+         <p>-Tomar los pedidos</p>
+         <p>-cobrar</p>
+         <p>-Resivir proveedores</p>
+         <p>-Hacer inventario para ver los faltantes</p>
+         <p>Descripcion:</p>
+         <p>En si me encargaba de todo, tomar la comanda, preparar las bebidas, mantener limpio el establecimiento, cobrar, 
+         en si toda la atencion al cliente </p>
+        <wbr>
+
+        </wbr>
+        <p><strong>Manos Creativas </strong></p>
+        <p>Vendedora-Cajera</p>
+        <p>octubre 2020-Diciembre 2022 - </p>
+        <p>Responsabilidades:</p>
+         <p>-Atencion al cliente </p>
+         <p>-Cobrar </p>
+         <p>-Limpieza</p>
+         <p>-Resivir proveedores</p>
+         <p>-Hacer inventario para ver los faltantes</p>
+         <p>Descripcion:</p>
+         <p>Me encargaba de atender, envolver, inflar globos, todo lo relacionado con una tienda de regalos y cosas de manualidades,
+         asi como cobrar</p>
+
+    </section>
+    </div>
+  </div>
+
+</body>
+</html>
